@@ -1,0 +1,42 @@
+.patientInfomation{
+  .info{
+    background: white;
+    padding: 10px;
+    width: 100%;
+    .itme{
+      display: inline-block;
+      width: 80%;
+      .item{
+        padding-right: 15px;
+        float: left;
+        display: inline-block;
+        height: 80px;
+        line-height: 80px;
+       // font-size: 20px;
+        .bage{
+          padding: 5px 10px;
+          border-radius: 5px;
+          background-color: orange;
+          color: white;
+        }
+      }
+    }
+    .back{
+      padding-right: 10px;
+      text-align: center;
+      .ant-btn{
+       // font-size: $FONT-SIZE-M;
+        color: white;
+        width: 200px;
+        background-color:$BUTTON-RED;
+        border-color:$BUTTON-RED;
+      }
+    }
+  }
+  .menu{
+    margin-top: 1rem;
+  }
+  .body{
+    margin-top: .75rem;
+  }
+}

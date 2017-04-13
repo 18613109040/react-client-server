@@ -1,0 +1,80 @@
+.back-button{
+            background: #3c819a;
+    border: none;
+    color: white;
+    width: 100%;
+    border-radius: 0px;
+    //font-size: 20px;
+    height: 55px;
+    font-weight: 800;
+    &:hover{
+          background: #3c819a;
+    }
+}
+.chat-link-list {
+    background: rgb(5,156,212) ;//#2db7f5
+    border: 1px solid rgb(5,156,212);
+    height: 665px;
+    z-index: 1;
+    top: 0;
+    bottom: 8rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    
+    .active {
+        border: 1px solid rgb(5,156,212);
+        border-radius: 8px;
+        background: #93d8f7;
+        .name {
+           color: black !important;
+        }
+        .age{
+            color: black !important;
+        }
+    }
+    
+    .link-item {
+        cursor: pointer;
+        padding: 5px;
+        //font-size: 16px;
+        margin: 10px;
+        img {
+            width: 45px;
+            height: 45px;
+            border-radius: 37px;
+        }
+        .item-title {
+            margin-top: 6px;
+            //font-size: 14px;
+           // color: rgb(157,157,157);
+            min-height: 48px;
+        }
+        .user-info {
+            .name{
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: inline-block;
+                width: 60%;
+                color: white;
+            }
+            .age {
+                margin-right: 5px;
+                color: white;
+            }
+            .badge-number{
+                    display: inline-block;
+    margin-top: -2px;
+            }
+        }
+        &:hover {
+            border: 1px solid #2db7f5;
+            border-radius: 8px;
+            background: #4dbef1;
+            .item-title {
+               // color: white !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 217401 */
+  src: url('//at.alicdn.com/t/font_tj58holr1iztzkt9.eot');
+  src: url('//at.alicdn.com/t/font_tj58holr1iztzkt9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_tj58holr1iztzkt9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_tj58holr1iztzkt9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_tj58holr1iztzkt9.svg#iconfont') format('svg');
+}
+.iconfont{ font-family:"iconfont" !important; font-size:16px; font-style:normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale;}
+
+.icon-consultsSquare:after{content: "\e65d";font-size: 50px;font-weight: 200;} //抢答
+
+.icon-outPatient:after{content: "\e657";font-size: 50px;font-weight: 200;} //门诊
+
+.icon-patientCounsel:after{content: "\e604";font-size: 50px;font-weight: 200;} //咨询
+
+.icon-statistics:after{content: "\e619";font-size: 50px;font-weight: 200;} //统计
+
+.icon-tickling:after{content: "\e606";font-size: 50px;font-weight: 200;} //反馈
+
+.icon-patientFile:after{content: "\e722";font-size: 50px;font-weight: 200;} //患者档案
+
+.icon-setting:after{content: "\e60a";font-size: 50px;font-weight: 200;} //设置
+
+.icon-baseInfo:after{content: "\e65e";font-size: 25px;font-weight: 200;} //基本信息
+
+.icon-yibao:after{content: "\e6f9";font-size: 25px;font-weight: 200;} //医保信息
+
+.icon-bingshi:after{content: "\e603";font-size: 25px;font-weight: 200;} //病史信息
+
+.icon-three-point:after{content: "\e67c";font-size: 30px;font-weight: 200;} //三点
+
+.icon-print:after{content: "\e6bb";font-size: 25px; cursor: pointer;color: #fe5e3a;font-weight: 200;} //打印
+
+.icon-add:after{content: "\e676";font-size: 25px;font-weight: 200;} //新增
+
+.icon-centigrade:after{content:"\e6ce";font-weight: 200;} //摄氏度
+
+.icon-save:after{content:"\e878";font-size: 3.5rem;cursor: pointer;color: #fe5e3a;font-weight: 200;} //保存
+
+.icon-clear:after{content:"\e61a";font-size: 1.25rem;cursor: pointer;color: #fe5e3a;font-weight: 200;} //一键清空
+
+.icon-cpr-template:after{content:"\e61b";font-size: 1.25rem;cursor: pointer;color: #fa9006;font-weight: 200;} //病历存为模板
+
+.icon-all-template:after{content:"\e639";font-size: 1.25rem;cursor: pointer;color: #0ac1a5;font-weight: 200;} //病历整体模板
+
+.icon-girl:after{content:"\e6d1";font-weight: 200;} //病历整体模板
+
+.icon-man:after{content:"\e63b";font-weight: 200;} //病历整体模板

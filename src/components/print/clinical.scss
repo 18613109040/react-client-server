@@ -1,0 +1,39 @@
+.print {
+	font-size: 14px;
+	width: 210mm;
+	height: 148mm;
+	padding: 10px;
+	.shop_name {
+		text-align: center;
+	}
+	.bingli {
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	.jiuzhen {
+		margin-top: 10px;
+		span {
+			margin-right: 10px;
+		}
+	}
+	.nameinfo {
+		margin-top: 10px;
+		span {
+			margin-right: 10px;
+		}
+	}
+	.adder {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		span {
+			margin-right: 10px;
+		}
+	}
+	.zhusu {
+		margin-top: 10px;
+	}
+	.div-margin {
+		margin-top: 10px;
+	}
+}

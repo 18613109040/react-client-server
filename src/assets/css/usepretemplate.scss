@@ -1,0 +1,53 @@
+//处理模板-弹窗样式
+.use-pre-template {
+  .ant-modal-header{
+      background-color: $BUTTON-RED;
+      color: white;
+  }
+  .ant-modal-body{
+    background-color: #FFF;
+  }
+  .content {
+      .title {
+          //font-size: 0.8rem;
+          .input-name {
+              margin-left: 20px;
+              .ant-input {
+                  width: 70%;
+              }
+          }
+      }
+      .tree-left {
+          background: white;
+          margin-top: 0.5rem;
+          .ant-tree-title {
+             // font-size: 0.8rem;
+          }
+          .addtemple {
+              .title-temp {}
+              .icon-hiden {
+                  display: none;
+                  margin-left: 11px;
+              }
+              &:hover {
+                  .icon-hiden {
+                      display: inline-block !important;
+                  }
+              }
+          }
+      }
+      .button-oper {
+          text-align: center;
+          margin-top: 1rem;
+          .ant-btn {
+              width: 120px;
+              height: 36px;
+              margin-left: 20px;
+          }
+      }
+      .right-content {
+          background: white;
+          margin-top: 0.5rem;
+      }
+  }
+}

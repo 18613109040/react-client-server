@@ -1,0 +1,42 @@
+.patientInfo{
+    @mixin patient{
+        padding-left: 10%;
+        .name{
+            color: $BUTTON-ORANGE;
+        }
+        .value{
+            margin-left: 0.5rem;
+        }
+    }
+    .patientItem{
+       // font-size: $FONT-SIZE-M;
+        .item-div{
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+           
+            margin-top: 1rem;
+            .item-div1{
+                float: left;
+                padding-left: 1rem;
+
+            }
+            .item-div2{
+                font-weight: 800;
+                margin-left: 10px;
+                margin-top: -3px;
+               // font-size: 16px;
+                color: #000000;
+            }
+        }
+        .content{
+            @include patient();
+            
+        }
+        .content2{
+           border-left: 2px solid $BUTTON-ORANGE; 
+           @include patient();
+        }
+        
+    }
+}

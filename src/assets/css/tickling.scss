@@ -1,0 +1,66 @@
+.tickling{
+    .ant-menu-item-selected > a{
+      color: #2db7f5;
+    }
+    .ant-menu-item{
+      span{
+      //  font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  .feelback-button-center{
+    text-align: center;
+    margin-top: -15px;
+    .f-button-submit{
+      margin:0 10px;
+    }
+    .f-button-reset{
+      margin:0 10px;
+    }
+  }
+  .textarea-span{
+    position: absolute;
+    z-index: 10;
+    top:90px;
+    right: 15px;
+  }
+  .feelback-answer{
+    background-color: rgba(153, 153, 153, 1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    &:before{
+      content: "";
+      width: .8rem;
+      height: .8rem;
+      position: absolute;
+      background: rgba(153, 153, 153, 1);
+      top: -.4rem;
+      left: .8rem;
+      transform:rotate(45deg);
+      -ms-transform:rotate(45deg); /* Internet Explorer */
+      -moz-transform:rotate(45deg); /* Firefox */
+      -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+      -o-transform:rotate(45deg); /* Opera */
+    }
+  }
+  .buttom-set{
+      text-align: center;
+      position: relative;
+      .save{
+          margin-left: 1rem;
+      }
+      .ant-btn{
+        //  font-size: 18px;
+      }
+      .span-right{
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+  }
+  .f-margin-top{
+    margin-top: 8px;
+  }
+}

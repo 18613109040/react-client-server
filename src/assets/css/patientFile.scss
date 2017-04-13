@@ -1,0 +1,76 @@
+.patientFile{
+    form{
+      background: white;
+      margin-bottom: 1rem;
+      padding: 1rem;
+    }
+    .bars{
+      display: inline-block;
+      text-align: right;
+      //font-size: 1rem;
+    }
+    .page-bar{
+      float: right;
+      padding: .5rem 2rem;
+    }
+    .top-select-menu{
+      div{
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
+    .patie-item{
+        display: inline-block;
+        padding: 1rem;
+    }
+    .patient{
+        width: 250px;
+        .info-man{
+            background: rgb(204,204,204);
+            color: black;
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            .img-man{
+                display: inline-block;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 35px;
+                }
+
+            }
+            .man-title{
+                display: inline-block;
+
+                .title{
+                    position: absolute;
+                    margin-top: -36px;
+                   // font-size: 0.8rem;
+                    span{
+                        margin-left: 0.5rem;
+                    }
+                }
+                .time{
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+        .search-info{
+            text-align: center;
+            background: rgb(242,242,242);
+            padding: 12px;
+
+        }
+    }
+    .form-item-w17{
+      width: 17%;
+      .ant-form-item-control-wrapper{
+        width: 60%;
+      }
+    }
+    .form-item-w25{
+      width: 25%;
+      .ant-form-item-control-wrapper{
+        width: 70%;
+      }
+    }
+}

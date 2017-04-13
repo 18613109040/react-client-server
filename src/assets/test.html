@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- here helmet will do stuff for you -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no"/>
+    <link type="text/css" rel="stylesheet" href="assets/styles.css"></link>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- <script src="http://192.168.10.124:2080/rap.plugin.js?projectId=2"></script> -->
+
+
+
+  </head>
+  <body>
+
+    <div id="app" class="page-group">
+      <div><p>接口测试页面</p></div>
+    </div>
+    <script type="text/javascript">
+      // $.get("http://ba.360gst.com/testwebservice/GetUserClientAppWebServiceV2.0.php?Action=recommdepartment&os_type=1&push_type=1&token=c7fac031e069874e7ed7ee618e4ee1db", function(rep){
+      //   $("#app").append($("p").html(rep));
+      // })
+
+      $.ajax({
+        // contentType: 'application/x-www-form-urlencoded',
+        url: "http://" + window.location.host + "/api/" + "ba.360gst.com/testwebservice/GetUserClientAppWebServiceV2.0.php?Action=recommdepartment&os_type=1&push_type=1&token=c7fac031e069874e7ed7ee618e4ee1db",
+        // url: "http://ba.360gst.com/testwebservice/GetUserClientAppWebServiceV2.0.php",
+        //data: "MSM_HEADER=CmdType=FHBX;CmdModule=MULTIQUOTES;CmdId=Search;CmdVer=1.0.0;Token=&MSM_PARAM=uuid=" + data.uid + ";licensePlate=;dateCreatedStart=2015-5-26;insuredName=;status=;max=12;offset=0",
+        // data: "",
+        type: 'get',
+        // dataType: 'json',
+        success: function(data) {
+          onSuccess(data);
+        },
+        error: function(rep){
+          console.log(rep);
+        }
+      });
+
+      // window.RAP.setPrefix("/mockjsdata/");
+      // console.log(window.RAP, "333", window.RAP.getPrefix());
+      // // console.log("883838:",$);
+      // $.ajax({
+      //   data:{userName:"patChen", password:"0000"},
+      //   type: "post",
+      //   url: "api/signin",
+      //   error: function(rep){
+      //     alert("ajax error\n"+JSON.stringify(rep));
+      //   },
+      //   success: function(rep){
+      //     console.log('requester moce server success: ---', rep);
+      //     // if(rep.isOk){
+      //     //   window.history.back();
+      //     // }
+      //   }
+      // })
+    </script>
+    <!-- <script src="lib.js"></script>
+    <script src="Recommend.js"></script> -->
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>

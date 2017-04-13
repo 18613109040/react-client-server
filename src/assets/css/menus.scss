@@ -1,0 +1,167 @@
+@mixin menuButton{
+    color: white;
+    width: 5rem;
+    height:5rem;
+    //font-size: 14px;
+    text-align: center;
+    background: #32394d;
+    border: 1px solid #282d3d !important;
+    cursor: pointer;
+    float: left;
+    .ant-badge {
+        margin-left: 36px;
+        position: absolute;
+        .ant-badge-dot {
+                height: 13px;
+                width: 13px;
+        }
+    }
+    .name-size{
+        margin-top: -0.3rem;
+    }
+    &:hover {
+        background: #454b5f;
+    }
+}
+.menu-left-fold {
+   // width: 122px;
+   // height: 800px;
+    overflow-y: auto;
+    overflow-x: none;
+    .ant-btn {
+        border-radius: 0;
+        &:hover {
+            color: white;
+        }
+    }
+   
+    .menu-fold-un {
+        width: 5rem;
+        height: 36px;
+        background: #32394d;
+        .anticon {
+            margin: 8px 10px 0 0;
+            float: right;
+            color: white;
+           // font-size: 1rem;
+            cursor: pointer;
+        }
+    }
+    .menus-style-fold{
+        //padding: 0.5rem;
+       // @include menuButton;
+        
+    }
+}
+.menu-left-shrink{
+    padding: 20px 10px 5px 10px;
+    text-align: center;
+    .item-menu{
+        margin-top: -15px;
+        color: white;
+        .name-size{
+         margin-top: -10px;
+            // font-size: 16px;
+             color: white;
+        }
+        .point{
+           margin-top: -7px;
+        }
+        .ant-badge{
+                position: absolute;
+    margin-left: 16px;
+        }
+    }
+    
+}
+.menu-left {
+    width: 240px;
+    .ant-btn {
+        border-radius: 0;
+        &:hover {
+            color: white;
+        }
+    }
+    .set-block{
+     display: inline-block; 
+     width: 6rem;  
+        
+    }
+   
+    .menu-fold-un {
+        width: 12rem;
+        height: 36px;
+        background: #32394d;
+        .anticon {
+            margin: 8px 10px 0 0;
+            float: right;
+            color: white;
+            //font-size: 1rem;
+            cursor: pointer;
+        }
+    }
+    .menus-style {
+        color: white;
+        width: 6rem;
+        height: 6rem;
+       // font-size: 18px;
+        text-align: center;
+        background: #32394d;
+        border: 1px solid #282d3d !important;
+        cursor: pointer;
+       // float: left;
+        .ant-badge {
+                margin-left: 36px;
+                position: absolute;
+            .ant-badge-dot {
+                height: 13px;
+                width: 13px;
+            }
+        }
+        &:hover {
+            background: #454b5f;
+        }
+    }
+    .ant-spin {
+        display: none;
+    }
+}
+.change-menu-select {
+    color: $BUTTON-RED;
+    &+div{
+        color: $BUTTON-RED !important;
+        font-weight: 800;
+    }
+}
+.top-card {
+    text-align: center;
+    height: 15rem;
+    .custom-image {
+        img {
+            width: 90px;
+            height: 90px;
+            border-radius: 60px;
+        }
+    }
+    .custom-card {
+        h2 {
+            margin-top: 0.5rem;
+           // font-size: 1rem;
+            color: rgb(0,0,0);
+        }
+        h4 {
+           // font-size: 0.8rem;
+            color: rgb(0,0,0);
+        }
+        .doctor-part {
+            margin-top: 1rem;
+           // font-size: 0.6rem;
+            color: rgb(29,37,49);
+        }
+    }
+}
+.menu-tooptip{
+    
+        //font-size: 18px;
+    
+}

@@ -1,0 +1,931 @@
+.prescription-doctor{
+  float: left;
+  font-weight: bolder;
+  color: red;
+  font-size: 16px;
+}
+.see-doctor {
+    .free_type_color_black{
+      color:#333333;
+      input{
+        color:#333333;
+      }
+    }
+    .free_type_color_red{
+      color:#FF0000;
+      input{
+        color:#FF0000;
+      }
+    }
+    .free_type_color_blue{
+      color:#0000FF;
+      input{
+        color:#0000FF;
+      }
+    }
+
+    //治疗理疗
+
+    .table_footer {
+        float: right;
+        color: red;
+        margin-top: -10px;
+        //font-size: 16px;
+        font-weight: 800;
+    }
+    .right_fex_option {
+        //position: fixed;
+        right: 1rem;
+        max-width: 15rem;
+    }
+    //选项卡
+    .card-container {
+        margin-top: 10px;
+        min-height: 549px;
+        .ant-tabs-bar {
+            // border-bottom: 1px solid #fe3e5a;
+        }
+        .ant-tabs-new-tab {
+            background-color: #FFF;
+           // font-size: 25px;
+            width: 60px;
+            height: 30px;
+            line-height: 30px;
+        }
+        .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+            border-radius: 0;
+           // font-size: 16px;
+            padding: 5px 24px 4px;
+        }
+        .ant-tabs-nav-container {
+            .ant-tabs-nav {
+                padding-left: 1.5rem;
+            }
+            .ant-tabs-tab-active {
+                // color: #fe5e3a;
+                //  border-color: #fe5e3a;
+                //  border: 1px solid #fe5e3a !important;
+                //  background: white;
+                border-radius: 0;
+            }
+            .ant-tabs-tab {
+                border: none;
+                background: white;
+            }
+        }
+    }
+    // 患者信息
+    .patient-info {
+        background: white;
+        border-radius: 4px;
+        .patien-info-left {
+            float: left;
+            padding: 0.5rem;
+        }
+        .patient-buts {
+            padding: 17px;
+            float: right;
+            button {
+                margin-left: 0.5rem;
+               // font-size: $FONT-SIZE-M;
+                width: 140px;
+                height: 36px;
+                float: right;
+            }
+        }
+    }
+    // 病人过敏史，开方总价
+    .patient-allergy {
+        margin-top: 10px;
+        padding: 10px;
+        background: white;
+        // margin-bottom: 10px;
+        border-radius: 4px;
+       // font-size: $FONT-SIZE-M;
+
+        .allergy-history {
+
+            .allergy-title {
+                color: $BUTTON-RED;
+
+            }
+        }
+    }
+    .cost-all {
+        width: 100%;
+        line-height: 2rem;
+        height: 2rem;
+        text-align: right;
+        background-color: rgba(0,0,0,.5);
+        color: #FFF;
+        .total-price {
+           // font-size: $FONT-SIZE-L;
+        }
+    }
+    .clinical-history {}
+    // 诊断
+    .clinical-content {
+        margin: 3px;
+        input,
+        label,
+        span {
+          //  font-size: $FONT-SIZE-M;
+        }
+        .top-banner {
+            padding: 10px;
+            box-shadow: 1px -1px 5px -1px;
+        }
+        .buttom-banner {
+            margin-top: 20px;
+            padding: 10px;
+            box-shadow: 1px -1px 5px -1px;
+        }
+        .save-template {
+            text-align: center;
+            .ant-btn {
+                width: 80%;
+                margin-bottom: 5px;
+            }
+        }
+        .ant-form-item {
+            margin-bottom: 10px;
+        }
+        .jingdaishi {
+            .ant-checkbox-group {
+                display: inline-block;
+            }
+            .div-1 {
+                display: inline-block;
+            }
+        }
+        .tigejiancha {
+            .title {
+                line-height: 30px;
+            }
+            .ant-form-item {
+                display: inline-block;
+                .ant-form-item-label {
+                    display: inline-block;
+                }
+                .ant-form-item-control {
+                    display: inline-block;
+                }
+            }
+            .text-colare {
+                .ant-form-item {
+                    width: 100%;
+                    .ant-form-item-control {
+                        width: 100%;
+                    }
+                }
+            }
+            margin-bottom: 0.5rem;
+            .div-1 {
+                display: inline-block;
+                line-height: 30px;
+                .ant-input-number{
+                  margin-right: 0px;
+                   border: none;
+                    background: none;
+                    border-bottom: 1px solid;
+                    border-radius: 0;
+                        width: 50px;
+                }
+                .ant-input-number-handler-wrap{
+                    display: none;
+                }
+                .ant-input-number-input{
+                    border: none;
+                    background: none;
+                }
+            }
+            .div-2 {
+                display: inline-block;
+                line-height: 30px;
+                .ant-input-number{
+                  margin-right: 0px;
+                   border: none;
+                    background: none;
+                    border-bottom: 1px solid;
+                    border-radius: 0;
+                        width: 40px;
+                }
+                .ant-input-number-handler-wrap{
+                    display: none;
+                }
+                .ant-input-number-input{
+                    border: none;
+                    background: none;
+                }
+            }
+            .div-2 {
+                display: inline-block;
+                margin-left: 0.5rem;
+                line-height: 30px;
+                .ant-input {
+                    width: 30px;
+                    border: none;
+                    background: none;
+                    border-bottom: 1px solid;
+                    border-radius: 0;
+                }
+            }
+        }
+        //中医诊断
+        .clinialItem {
+            .header-title {
+                border: 1px solid;
+                .div-1 {
+                    display: inline-block;
+                    border-right: 1px solid;
+                    width: 24%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+                .div-2 {
+                    display: inline-block;
+                    border-right: 1px solid;
+                    width: 50%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+                .div-3 {
+                    display: inline-block;
+                    width: 13%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .div-4 {
+                    display: inline-block;
+                    width: 13%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+            }
+            .content {
+                border: 1px solid;
+                border-top: none;
+                .select-item {
+                    display: inline-block;
+                    width: 24%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .select-fec {
+                    display: inline-block;
+                    width: 50%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .check-1 {
+                    display: inline-block;
+                    width: 13%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                    line-height: 28px;
+                }
+                .check-2 {
+                    display: inline-block;
+                    width: 13%;
+                    text-align: center;
+                    padding: 5px;
+                }
+
+            }
+            .top-tip {
+                text-align: center;
+                padding: 6px;
+                border: 1px solid;
+                border-top: none;
+            }
+        }
+        //西医诊断
+        .medicineItem {
+            .header-title {
+                border: 1px solid;
+                .div-1 {
+                    display: inline-block;
+                    border-right: 1px solid;
+                    width: 20%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+                .div-2 {
+                    display: inline-block;
+                    border-right: 1px solid;
+                    width: 30%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+                .div-3 {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .div-4 {
+                    display: inline-block;
+                    width: 20%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .div-5 {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+            }
+            .content {
+                border: 1px solid;
+                border-top: none;
+                .select-item {
+                    display: inline-block;
+                    width: 20%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .select-fec {
+                    display: inline-block;
+                    width: 30%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .check-1 {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    padding: 8px;
+                    border-right: 1px solid;
+                }
+                .icdCode {
+                    display: inline-block;
+                    width: 20%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .check-2 {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    padding: 8px;
+
+                }
+            }
+            .top-tip {
+                text-align: center;
+                padding: 6px;
+                border: 1px solid;
+                border-top: none;
+            }
+        }
+    }
+    .text-left {
+        text-align: left;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .text-right {
+        text-align: right;
+    }
+    // table
+    .seedoctor-summary{
+      .text-center{
+        text-align: center;
+       // font-size: $FONT-SIZE-M;
+      }
+      .ant-table-header {
+        // margin-bottom: 0 !important;
+      }
+      .ant-table{
+        border: 1px solid #d9d9d9;
+        .ant-table-title{
+        //  font-size: $FONT-SIZE-L;
+          border-bottom: 1px solid #d9d9d9;
+          background-color: #ffefeb;
+          padding: 5px 10px;
+          font-weight: bold;
+        }
+        .ant-table-thead > tr > th{
+          padding: 8px;
+        }
+        .select-row{
+          background: #fff2ef;
+        }
+        .ant-table-tbody > tr > td {
+          padding: 4px;
+        }
+      }
+    }
+}
+.model-right{
+  .text-center{
+    text-align: center;
+   // font-size: $FONT-SIZE-M;
+  }
+  .ant-table-header {
+    // margin-bottom: 0 !important;
+  }
+  .ant-table{
+    border: 1px solid #d9d9d9;
+    .ant-table-title{
+     // font-size: $FONT-SIZE-L;
+      border-bottom: 1px solid #d9d9d9;
+      background-color: #ffefeb;
+      padding: 5px 10px;
+      font-weight: bold;
+    }
+    .ant-table-thead > tr > th{
+      padding: 8px;
+    }
+    .select-row{
+      background: #fff2ef;
+    }
+    .ant-table-tbody > tr > td {
+      padding: 4px;
+    }
+  }
+}
+.warn-delete{
+  background-color: #ff5e3a;
+  color: #FFF;
+  &:hover{
+    background-color: #ff5e3a;
+    color: #FFF;
+  }
+}
+//中医诊断select
+.clinial-item-option {
+    width: 500px;
+    .number {
+        display: inline-block;
+        width: 10%;
+    }
+    .name {
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+    }
+    .binyin {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+    }
+    .wubi {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+    }
+}
+//西医
+.medicinet-item-option {
+    width: 550px;
+    .number {
+        display: inline-block;
+        width: 10%;
+    }
+    .name {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+    }
+    .zhenduan {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+    }
+    .binyin {
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+    }
+    .wubi {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+    }
+}
+//处理模板-弹窗样式
+.citeManageModel {
+
+    .title-temp {
+
+            overflow: hidden;
+            word-break: keep-all;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 100%;
+    }
+
+    .clinical-content {
+        margin: 3px;
+        input,
+        label,
+        span {
+           // font-size: $FONT-SIZE-M;
+        }
+        .moban-name {}
+        .moban-content {}
+        .save-template {
+            text-align: center;
+            .ant-btn {
+                width: 80%;
+                margin-bottom: 5px;
+            }
+        }
+        .ant-form-item {
+            margin-bottom: 10px;
+        }
+        .jingdaishi {
+            .ant-checkbox-group {
+                display: inline-block;
+            }
+            .div-1 {
+                display: inline-block;
+            }
+        }
+        .tigejiancha {
+            .title {
+              //  font-size: $FONT-SIZE-M;
+                line-height: 30px;
+            }
+            .back-grd {
+                background: #f8f8f8;
+                padding: 0.5rem;
+                border-radius: 0.5rem;
+            }
+            .ant-form-item {
+                display: inline-block;
+                .ant-form-item-label {
+                    display: inline-block;
+                }
+                .ant-form-item-control {
+                    display: inline-block;
+                }
+            }
+            .text-colare {
+                .ant-form-item {
+                    width: 100%;
+                    .ant-form-item-control {
+                        width: 100%;
+                    }
+                }
+            }
+            margin-bottom: 0.5rem;
+            .div-1 {
+                display: inline-block;
+                line-height: 30px;
+                .ant-input {
+                    width: 30px;
+                    border: none;
+                    background: none;
+                    border-bottom: 1px solid;
+                    border-radius: 0;
+                }
+            }
+            .div-2 {
+                display: inline-block;
+                margin-left: 0.5rem;
+                line-height: 30px;
+                .ant-input {
+                    width: 30px;
+                    border: none;
+                    background: none;
+                    border-bottom: 1px solid;
+                    border-radius: 0;
+                }
+            }
+        }
+        //中医诊断
+        .clinialItem {
+            margin-left: 1rem;
+            .header-title {
+                border: 1px solid;
+                .div-1 {
+                    display: inline-block;
+                    border-right: 1px solid;
+                    width: 25%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+                .div-2 {
+                    display: inline-block;
+                    border-right: 1px solid;
+                    width: 40%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .div-3 {
+                    display: inline-block;
+                    width: 18%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .div-4 {
+                    display: inline-block;
+                    width: 17%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+            }
+            .content {
+                border: 1px solid;
+                border-top: none;
+                .select-item {
+                    display: inline-block;
+                    width: 25%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .select-fec {
+                    display: inline-block;
+                    width: 40%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .check-1 {
+                    display: inline-block;
+                    width: 18%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                    line-height: 28px;
+                }
+                .check-2 {
+                    display: inline-block;
+                    width: 17%;
+                    text-align: center;
+                    padding: 5px;
+                }
+            }
+            .top-tip {
+                text-align: center;
+                padding: 6px;
+                border: 1px solid;
+                border-top: none;
+            }
+        }
+        //西医诊断
+        .medicineItem {
+            margin-left: 1rem;
+            .header-title {
+                border: 1px solid;
+                .div-1 {
+                    display: inline-block;
+                    border-right: 1px solid;
+                    width: 20%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+                .div-2 {
+                    display: inline-block;
+                    border-right: 1px solid;
+                    width: 30%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+                .div-3 {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .div-4 {
+                    display: inline-block;
+                    width: 20%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .div-5 {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    line-height: 31px;
+                    padding: 5px;
+                }
+            }
+            .content {
+                border: 1px solid;
+                border-top: none;
+                .select-item {
+                    display: inline-block;
+                    width: 20%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .select-fec {
+                    display: inline-block;
+                    width: 30%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .check-1 {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    padding: 8px;
+                    border-right: 1px solid;
+                }
+
+                .icdCode {
+                    display: inline-block;
+                    width: 20%;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid;
+                }
+                .check-2 {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    padding: 8px;
+
+                }
+            }
+            .top-tip {
+                text-align: center;
+                padding: 6px;
+                border: 1px solid;
+                border-top: none;
+            }
+        }
+    }
+    .ant-modal-body {
+        background: white;
+       // font-size: $FONT-SIZE-M;
+        padding: 0;
+        min-height: 400px;
+            max-height: 600px;
+    overflow: auto;
+    }
+    .ant-modal-header {
+        background: #ff5e3a;
+        color: white;
+    }
+    .model-left {
+        padding: 16px;
+        border-right: 1px solid #bbb;
+
+    }
+    .model-right {
+        border-left: 1px solid #bbb;
+        padding: 16px 10px 10px 20px;
+        margin-left: -2px;
+    }
+
+    .content {
+        .title {
+         //   font-size: 0.8rem;
+            .input-name {
+                margin-left: 20px;
+                .ant-input {
+                    width: 70%;
+                }
+            }
+        }
+        .tree-left {
+            background: white;
+            margin-top: 0.5rem;
+            .ant-tree li a {
+                width: 100%;
+            }
+            .ant-tree-title {
+               // font-size: 0.8rem;
+            }
+            .addtemple {
+                .title-temp {
+                    display: inline-block;
+                    overflow: hidden;
+                    word-break: keep-all;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    width: 54%;
+                }
+                .icon-hiden {
+                    display: none;
+                    // margin-left: 11px;
+                    //  display: inline-block;
+                    float: right;
+                }
+                &:hover {
+                    .icon-hiden {
+                        display: inline-block !important;
+                    }
+                }
+            }
+        }
+        .button-oper {
+            text-align: center;
+            margin-top: 1rem;
+            .ant-btn {
+                width: 120px;
+                height: 36px;
+                margin-left: 20px;
+            }
+        }
+        .right-content {
+            background: white;
+            margin-top: 0.5rem;
+
+            .ant-input {
+               // font-size: 0.7rem;
+            }
+
+        }
+    }
+}
+//处理新增弹窗
+.citeAddtemplate {
+    .mulu {
+        text-align: center;
+        .ant-input {
+            margin-left: 1rem;
+            width: 70%;
+        }
+    }
+    .button-oper {
+        text-align: center;
+        margin-top: 1rem;
+        .ant-btn {
+            width: 120px;
+            height: 36px;
+            margin-left: 20px;
+        }
+    }
+}
+.button-orange {
+    color: #fff;
+    background-color: $BUTTON-ORANGE;
+    &:hover {
+        color: #fff;
+        border: 1px solid $BUTTON-ORANGE;
+        background-color: $BUTTON-ORANGE;
+    }
+}
+.button-green {
+    color: #fff;
+    background-color: $BUTTON-GREEN;
+    &:hover {
+        color: #fff;
+        border: 1px solid $BUTTON-GREEN;
+        background-color: $BUTTON-GREEN;
+    }
+}
+.button-red {
+    color: #fff;
+    background-color: $BUTTON-RED;
+    &:hover {
+        color: #fff;
+        border: 1px solid $BUTTON-RED;
+        background-color: $BUTTON-RED;
+    }
+}
+.ant-tooltip-inner{
+  max-width: 400px;
+}
+.ant-table-body{
+  &>table{
+    border-collapse: collapse;
+  }
+  .warn-info{
+    box-shadow: 0.5px 0.5px 1px 1px #ff5e3a inset;
+  }
+  .zf-style{
+    display: none;
+  }
+}

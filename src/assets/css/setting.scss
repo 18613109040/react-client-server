@@ -1,0 +1,41 @@
+.setting{
+    .jiemian{
+        padding: 0.75rem;
+        background: wheat;
+        margin-top: 1rem;
+        .check{
+            float: right;
+        }
+    }
+    .set-font{
+        background: white;
+        padding: 10px 0px 10px 0px;
+        .ant-form-item{
+            margin-bottom: 0px;   
+           // font-size: 0.8rem;
+        }
+    }
+    .buttom-set{
+        text-align: center;
+        margin-top: 1rem;
+        .save{
+            margin-left: 1rem;
+        }
+        .ant-btn{
+          //  font-size: 18px;
+        }
+    }
+}
+
+//统计样式
+.statistics{
+    .title-set{
+        text-align: center;
+    padding: 15px;
+    background: white;
+    margin-bottom: 20px;
+    }
+    .table_content{
+        background: white;
+    }
+}

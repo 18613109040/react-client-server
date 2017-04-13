@@ -1,0 +1,10 @@
+.root.login{
+  display: table;
+  background: #fff;
+  transition: background .5s;
+  .login-box{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+}

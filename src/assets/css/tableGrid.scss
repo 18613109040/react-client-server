@@ -1,0 +1,86 @@
+.ant-table-thead{
+    //font-size: 0.8rem;
+    tr{
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+.ant-table-tbody{
+   // font-size: 0.8rem;
+    color: #444;
+    //设置表格偶数行颜色
+   /* tr:nth-child(odd){
+        background:rgb(243,244,246);
+    }
+    //鼠标移到表格行显示色调
+    tr:hover{
+        background: rgb(234,248,254);
+    }*/  
+}
+.ant-pagination {
+   // font-size: 16px;
+}
+ //  表格初始化
+.ant-table {
+   
+  .ant-table-thead > tr > th{
+    background-color: white;
+    border-bottom: 1px solid #e9e9e9;   
+  }
+  .ant-table-row {
+    .colFormat{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        max-width: 20rem;
+        width: 80%;  
+    }
+   
+  }
+  .ant-table-body{
+      overflow-y: auto;
+    
+  }
+  /*
+   .colFormat:hover{
+    white-space: normal;
+    overflow: visible;
+  }*/
+  .set_font_color{
+    //color: rgb(225,225,225); 
+    color: rgb(157,157,157); 
+  }
+  .ant-img-style{
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 37px
+  }
+  
+
+}
+.ant-table-pagination {
+        position: relative;
+        margin: 0.5rem 0;
+        .ant-pagination-item {
+            a {
+                color: #666;
+            }
+        }
+        .ant-pagination-item-active {
+            border: none;
+            background-color: #fff;
+            a {
+                color: #1e89e4;
+            }
+        }
+}
+.ant-menu-submenu-title{
+    a{
+        display: block;
+        width: 109%;
+    }
+}
+
+

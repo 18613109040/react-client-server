@@ -1,0 +1,12 @@
+.page.stock-search{
+  .ant-row-flex.control{
+    margin-bottom: 0.8rem;
+  }
+  .ant-search-input.ant-input-group .ant-select:first-child{
+    position: relative;
+  }
+  .ant-search-input .ant-select-combobox .ant-select-selection__rendered{
+    width:100%;
+    padding:0;
+  }
+}
